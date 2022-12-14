@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "Visual Advanced Website",
+  "private": false,
+  "description": "The Official website for the visual advanced magazine",
+  "version": "0.1.2",
+  "author": "Thomas Lower <thomaslower9@gmail.com",
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^5.2.0",
