@@ -11,6 +11,7 @@ const NavContainer = styled.div`
     background-color: #3c3c3b;
     position: sticky;
     display: inline-block;
+    height: 5vh;
 `
 
 const NavListContainer = styled.ul`
