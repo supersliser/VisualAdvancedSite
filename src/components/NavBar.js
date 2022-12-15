@@ -17,7 +17,8 @@ const NavContainer = styled.div`
 `
 
 const NavListContainer = styled.ul`
-    height: 100%
+    height: 100%;
+    list-style: none;
 `
 
 const NavItemContainer = styled.li`
@@ -26,6 +27,10 @@ const NavItemContainer = styled.li`
     border-right-thickness: 2px;
     height: 100%;
     width: 20%;
+    text-align: center;
+    &:hover{
+        background-color: #54569a
+    }
 `
 
 const VALine = styled.rect`
