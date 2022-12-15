@@ -49,7 +49,6 @@ const NavLink = styled(Link)`
 
 const Image = styled(StaticImage)`
     display: inline-block;
-    object-fit: contain;
     height: 100%;
 `
 const NavBar = () => (
