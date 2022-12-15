@@ -38,7 +38,7 @@ const NavItemContainer = styled.li`
 `
 
 const VALine = styled.rect`
-    fill: purple;
+    fill: #54569a;
     position: absolute;
 `
 
