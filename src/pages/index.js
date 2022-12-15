@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import NavBar from "../componenets/NavBar"
+import NavBar from "../componenets/NavBar.js"
 
 const IndexPage = () => (
 <p>Hi</p>
