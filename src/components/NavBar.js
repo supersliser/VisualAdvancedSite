@@ -14,6 +14,7 @@ const NavContainer = styled.div`
     padding: 0;
     background-color: #3c3c3b;
     position: sticky;
+    display: inline-block;
 `
 
 const NavListContainer = styled.ul`
@@ -44,11 +45,13 @@ const VALine = styled.rect`
 
 const NavLink = styled(Link)`
     text-decoration: none;
+    color: white;
 `
 
 const NavBar = () => (
     <NavContainer>
-        <NavListContainer>
+    <Logo/>
+            <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
             <NavItemContainer>Recent productions</NavItemContainer>
