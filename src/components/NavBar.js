@@ -30,6 +30,8 @@ const NavItemContainer = styled.li`
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     &:hover{
         background-color: #54569a
     }
@@ -45,7 +47,7 @@ const NavLink = styled(Link)`
     color: white;
 `
 
-const Image = styled(StaticImage)`
+const Image = styled.StaticImage`
     display: inline-block;
     object-fit: contain;
     height: 100%;
