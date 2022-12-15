@@ -29,7 +29,7 @@ const NavItemContainer = styled.li`
     border-right-color: black;
     border-right-thickness: 2px;
     height: 100%;
-    width: 10%;
+    width: auto;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
