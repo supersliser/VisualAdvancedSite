@@ -30,6 +30,8 @@ const NavItemContainer = styled.li`
     height: 100%;
     width: 20%;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
     &:hover{
         background-color: #54569a
     }
