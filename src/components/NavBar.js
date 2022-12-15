@@ -12,7 +12,7 @@ const NavContainer = styled.div`
     overflow: none;
     margin: 0;
     padding: 0;
-    background-color:;
+    background-color: #3c3c3b;
     position: sticky;
 `
 
@@ -21,7 +21,7 @@ const NavListContainer = styled.ul`
 `
 
 const NavItemContainer = styled.li`
-    color:;
+    color: white;
     border-right-color: black;
     border-right-thickness: 2px;
     height: 100%;
