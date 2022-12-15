@@ -8,8 +8,10 @@ import Seo from "../components/seo"
 import NavBar from "../components/NavBar"
 
 const IndexPage = () => (
-    <NavBar/>
-    <p>Hi</p>
+    <div>
+        <NavBar/>
+        <p>Hi</p>
+    </div>
 )
 
 /**
