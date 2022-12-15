@@ -24,7 +24,7 @@ const NavItemContainer = styled.li`
     display: inline-block;
     color: white;
     border-right-color: black;
-    border-right-thickness: 2px;
+    border-right-width: 2px;
     height: 100%;
     width: auto;
     text-align: center;
@@ -47,7 +47,7 @@ const NavLink = styled(Link)`
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" height="100%" objectFit="contain"/></NavLink>
+        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
