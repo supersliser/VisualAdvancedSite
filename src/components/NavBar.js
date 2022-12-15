@@ -3,10 +3,6 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
 
-const Logo = styled(StaticImage)`
-    height: 100%;
-`
-
 const NavContainer = styled.div`
     width: 100vw;
     overflow: none;
@@ -50,7 +46,7 @@ const NavLink = styled(Link)`
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><Logo src="../images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
+        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" height="100%"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
