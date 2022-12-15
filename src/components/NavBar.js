@@ -33,7 +33,7 @@ const VALine = styled.rect`
     position: absolute;
 `
 
-const NavLink = style(Link)`
+const NavLink = styled(Link)`
     text-decoration: none;
 `
 
