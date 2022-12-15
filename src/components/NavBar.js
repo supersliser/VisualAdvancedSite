@@ -19,9 +19,11 @@ const NavContainer = styled.div`
 const NavListContainer = styled.ul`
     height: 100%;
     list-style: none;
+
 `
 
 const NavItemContainer = styled.li`
+    display: inline-block;
     color: white;
     border-right-color: black;
     border-right-thickness: 2px;
