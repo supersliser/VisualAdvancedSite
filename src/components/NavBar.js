@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
 
-const Logo = styled.StaticImage`
+const Logo = styled(StaticImage)`
     height: 100%;
 `
 
