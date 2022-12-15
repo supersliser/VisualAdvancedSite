@@ -47,7 +47,7 @@ const NavLink = styled(Link)`
     color: white;
 `
 
-const Image = styled.StaticImage`
+const Image = styled(StaticImage)`
     display: inline-block;
     object-fit: contain;
     height: 100%;
