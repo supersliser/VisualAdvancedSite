@@ -45,7 +45,10 @@ const VALine = styled.rect`
 const NavLink = styled(Link)`
     text-decoration: none;
     color: white;
-    height: 10px;
+`
+
+const Image = styled.img`
+    height: 20px;
     display: inline-block;
 `
 
