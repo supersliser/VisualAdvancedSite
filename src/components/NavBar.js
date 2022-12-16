@@ -55,7 +55,7 @@ const ImageThingy = styled.img`
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><ImageThingy src="https://github.com/supersliser/VisualAdvancedSite/blob/b6a97d7c6f0c29263630855f0a34e6c5bf61f332/src/images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
+        <NavLink to="/"><ImageThingy src="../images/VALogo.png" alt="Visual Advanced Logo"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
