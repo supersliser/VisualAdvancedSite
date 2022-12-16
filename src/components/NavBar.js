@@ -47,13 +47,9 @@ const NavLink = styled(Link)`
     color: white;
 `
 
-const Image = styled(StaticImage)`
-    display: inline-block;
-    height: 10px;
-`
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" style="display: inline-block;height: 100%;zIndex: -1;"/></NavLink>
+        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" style="display: inline-block;height: 10px;zIndex: -1;"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
