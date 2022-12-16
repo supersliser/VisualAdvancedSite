@@ -49,7 +49,7 @@ const NavLink = styled(Link)`
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" style="display: inline-block;height: 10px;zIndex: -1;"/></NavLink>
+        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" style="display: inline-block;zIndex: -1;" height="10px"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
