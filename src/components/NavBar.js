@@ -45,11 +45,13 @@ const VALine = styled.rect`
 const NavLink = styled(Link)`
     text-decoration: none;
     color: white;
+    height: 100%;
+    display: inline-block;
 `
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo" style="display: inline-block; zIndex: -1; width: 20px; object-fit: contain;"/></NavLink>
+        <NavLink to="/"><StaticImage src="../images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
