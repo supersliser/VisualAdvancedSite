@@ -57,7 +57,7 @@ const NavBar = () => (
             <NavItemContainer>About Us</NavItemContainer>
             <NavItemContainer>Recent productions</NavItemContainer>
         </NavListContainer>
-        <svg y="20px" width="100%" height="10px">
+        <svg y="10px" width="100%" height="10px">
             <VALine width="100%" height="10px"/>
         </svg>
     </NavContainer>
