@@ -17,7 +17,7 @@ const NavContainer = styled.div`
 const NavListContainer = styled.ul`
     height: 100%;
     list-style: none;
-
+    display: inline-block;
 `
 
 const NavItemContainer = styled.li`
