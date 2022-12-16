@@ -54,7 +54,7 @@ const Image = styled.img`
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><Image src="src/images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
+        <NavLink to="/"><Image src="https://vscode.dev/github/supersliser/VisualAdvancedSite/blob/6a81be3eff259e4d23d58047372f1f09f6a99c8b/src/images/VALogo.jpg" alt="Visual Advanced Logo"/></NavLink>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
