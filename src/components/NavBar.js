@@ -49,7 +49,7 @@ const NavLink = styled(Link)`
 
 const Image = styled(StaticImage)`
     display: inline-block;
-    height: 100%;
+    height: 10px;
 `
 const NavBar = () => (
     <NavContainer>
