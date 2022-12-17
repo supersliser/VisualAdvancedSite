@@ -6,7 +6,7 @@
   "author": "Thomas Lower <thomaslower9@gmail.com",
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.7",
-    "gatsby": "^5.2.0",
+    "gatsby": "^5.3.2",
     "gatsby-plugin-image": "^3.3.1",
     "gatsby-plugin-manifest": "^5.2.0",
     "gatsby-plugin-sharp": "^5.3.1",

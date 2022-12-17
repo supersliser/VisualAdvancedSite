@@ -1,20 +1,21 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
-import { StaticImage } from "gatsby-plugin-image"
 
 const NavContainer = styled.div`
-    width: 100vw;
-    overflow: none;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     background-color: #3c3c3b;
     position: sticky;
-    display: inline-block;
     height: 5vh;
 `
 
 const NavListContainer = styled.ul`
+    position: relative;
+    left: 10vw;
     height: 100%;
     list-style: none;
     display: inline-block;
@@ -38,32 +39,44 @@ const NavItemContainer = styled.li`
 `
 
 const VALine = styled.rect`
+    height: 8px;
     fill: #54569a;
+    z-index: 5;
+`
+
+const VALogo = styled.text`
+    fill: #54569a;
+    z-index: 5;
+    top: 100%;
+    text-decoration: bold;
+    font-family: Consolas;
+`
+
+const LogoContainer = styled.svg`
     position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 `
 
 const NavLink = styled(Link)`
     text-decoration: none;
     color: white;
-    display: inline-block;
-`
-
-const ImageThingy = styled.img`
-    object-fit: contain;
-    display: inline-block;
 `
 
 const NavBar = () => (
     <NavContainer>
-        <NavLink to="/"><StaticImage src="./images/VALogo.png" alt="Visual Advanced Logo"/></NavLink>
+        <LogoContainer>
+            <VALogo y="100%" x="5%" letterSpacing="-25" fontSize="525%">VA</VALogo>
+            <VALogo y="90%" x="65%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
+            <VALine y="40%" x="8%" width="92%"/>
+            <VALine y="40%" x="0%" width="5.8%"/>
+        </LogoContainer>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
             <NavItemContainer>Recent productions</NavItemContainer>
         </NavListContainer>
-        <svg y="10px" width="100%" height="10px">
-            <VALine width="100%" height="10px"/>
-        </svg>
     </NavContainer>
 )
 
