@@ -10,7 +10,7 @@ const NavContainer = styled.div`
     margin: 0px;
     padding: 0px;
     background-color: #3c3c3b;
-    position: static;
+    position: fixed;
     height: 5%;
 `
 
