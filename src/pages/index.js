@@ -2,12 +2,12 @@ import * as React from "react"
 import Seo from "../components/seo"
 
 import NavBar from "../components/NavBar"
+import Main from "../components/Main"
 
 const IndexPage = () => (
-    <div>
-        <NavBar/>
-        <p>Hi</p>
-    </div>
+    <Main>
+        Hi
+    </Main>
 )
 
 /**
