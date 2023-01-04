@@ -70,7 +70,7 @@ const NavLink = styled(Link)`
 const NavBar = () => (
     <NavContainer>
         <LogoContainer>
-            <VALogo y="100%" x="50px" letterSpacing="-18" fontSize="500%">VA</VALogo>
+            <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="500%">VA</VALogo>
             <VALogo y="90%" x="55%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
             <VALine y="20px" x="105px" width="100%"/>
             <VALine y="20px" x="0px" width="66px"/>
