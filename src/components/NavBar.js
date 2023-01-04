@@ -20,7 +20,6 @@ const NavListContainer = styled.ul`
     height: 100%;
     list-style: none;
     display: inline-block;
-    top: 2.5vh;
     z-index: 10;
 `
 
@@ -44,12 +43,10 @@ const NavItemContainer = styled.li`
 const VALine = styled.rect`
     height: 8px;
     fill: #54569a;
-    z-index: 5;
 `
 
 const VALogo = styled.text`
     fill: #54569a;
-    z-index: 5;
     top: 100%;
     text-decoration: bold;
     font-family: Consolas;
@@ -72,8 +69,8 @@ const NavLink = styled(Link)`
 const NavBar = () => (
     <NavContainer>
         <LogoContainer>
-            <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="525%">VA</VALogo>
-            <VALogo y="90%" x="65%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
+            <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="1em%">VA</VALogo>
+            <VALogo y="90%" x="55%" letterSpacing="25" fontSize="0.5em">Visual Advanced</VALogo>
             <VALine y="40%" x="80px" width="100%"/>
             <VALine y="40%" x="0px" width="72px"/>
         </LogoContainer>
