@@ -9,10 +9,26 @@ const Container = styled.body`
     background-color: #3c3c3b;
 `
 
+const Stuff = styled.div`
+    position: static;
+    background-color: green;
+    height: 95%;
+    width: 100%;
+    color: white;
+    z-index: 20;
+    font-size: 5em;
+`
+
+const NavBarItem = styled(NavBar)`
+    position: static;
+`
+
 const Main = ({ children }) => (
 <Container>
-    <NavBar/>
-    {children}
+    <NavBarItem/>
+    <Stuff>
+        {children}
+    </Stuff>
 </Container>
 )
 

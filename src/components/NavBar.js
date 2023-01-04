@@ -5,13 +5,13 @@ import styled from 'styled-components'
 const NavContainer = styled.div`
     top: 0px;
     left: 0px;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
     background-color: #3c3c3b;
     position: fixed;
-    height: 5vh;
+    height: 5%;
 `
 
 const NavListContainer = styled.ul`
