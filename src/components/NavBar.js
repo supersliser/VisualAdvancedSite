@@ -73,7 +73,7 @@ const NavBar = () => (
             <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="500%">VA</VALogo>
             <VALogo y="90%" x="55%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
             <VALine y="20px" x="105px" width="100%"/>
-            <VALine y="20px" x="0px" width="66px"/>
+            <VALine y="20px" x="0px" width="65px"/>
         </LogoContainer>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
