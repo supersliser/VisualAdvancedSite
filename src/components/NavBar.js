@@ -55,6 +55,8 @@ const VALogo = styled.text`
 `
 
 const LogoContainer = styled.svg`
+    left: 0px;
+    top: 0px;
     position: absolute;
     width: 100%;
     height: 100%;
