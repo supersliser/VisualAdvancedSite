@@ -19,6 +19,7 @@ const NavListContainer = styled.ul`
     height: 100%;
     list-style: none;
     display: inline-block;
+    top: 2.5vh;
 `
 
 const NavItemContainer = styled.li`
