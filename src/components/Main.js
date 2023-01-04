@@ -31,8 +31,8 @@ const Main = ({ children }) => (
 <Container>
     <NavBarItem/>
     <Stuff>
-        <Image src="../images/elliotglasses.jpg" alt="An image"/>
         {children}
+        <Image src="../images/elliotglasses.jpg" alt="An image"/>
     </Stuff>
 </Container>
 )
