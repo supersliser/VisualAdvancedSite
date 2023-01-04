@@ -27,7 +27,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <StaticImage src="..\images\elliotglasses.jpg" alt="An image"/>
+        <StaticImage height="95%" src="..\images\elliotglasses.jpg" alt="An image"/>
     </Stuff>
 </Container>
 )
