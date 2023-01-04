@@ -11,7 +11,9 @@ const Container = styled.body`
 
 const Stuff = styled.div`
     position: static;
-    background-color: green;
+    background-image: url(./images/elliotglasses.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 95%;
     width: 100%;
     color: white;
