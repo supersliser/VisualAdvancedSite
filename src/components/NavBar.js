@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const NavContainer = styled.div`
     top: 0;
-    width: 100%;
+    left: 0;
+    width: 100vw;
     overflow: hidden;
     margin: 0;
     padding: 0;
