@@ -9,6 +9,11 @@ const Container = styled.body`
     background-color: #3c3c3b;
 `
 
+const Image = styled(StaticImage)`
+    height: 95%;
+    position: static;
+`
+
 const Stuff = styled.div`
     position: static;
     height: 95%;
@@ -27,7 +32,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <StaticImage height="95%" src="..\images\elliotglasses.jpg" alt="An image"/>
+        <Image src="../images/elliotglasses.jpg" alt="An image"/>
     </Stuff>
 </Container>
 )
