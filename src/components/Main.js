@@ -32,7 +32,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <Image src="../images/elliotglasses.jpg" alt="An image"/>
+        <Image src="src\images\elliotglasses.jpg" alt="An image"/>
     </Stuff>
 </Container>
 )
