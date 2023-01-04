@@ -11,7 +11,7 @@ const Container = styled.body`
 
 const Stuff = styled.div`
     position: static;
-    background-image: url(./images/elliotglasses.jpg);
+    background-image: url(https://github.com/supersliser/VisualAdvancedSite/blob/9ab4095fdb7699f1f7d5af892aeb6624f14e7d03/src/images/elliotglasses.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 95%;
