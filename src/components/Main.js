@@ -1,7 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import styled from 'styled-components'
 import NavBar from "./NavBar"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Container = styled.body`
     top: 0px;
@@ -9,11 +9,14 @@ const Container = styled.body`
     background-color: #3c3c3b;
 `
 
+const Image = styled(StaticImage)`
+    height: 95vh;
+    position: absolute;
+    width: 100vw;
+`
+
 const Stuff = styled.div`
     position: static;
-    background-image: url(https://github.com/supersliser/VisualAdvancedSite/blob/9ab4095fdb7699f1f7d5af892aeb6624f14e7d03/src/images/elliotglasses.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 95%;
     width: 100%;
     color: white;
@@ -29,6 +32,7 @@ const Main = ({ children }) => (
 <Container>
     <NavBarItem/>
     <Stuff>
+        <Image src="../images/elliotglasses.jpg" alt="An image"/>
         {children}
     </Stuff>
 </Container>
