@@ -15,6 +15,7 @@ const NavContainer = styled.div`
 `
 
 const NavListContainer = styled.ul`
+    top: -30;
     position: relative;
     left: 10vw;
     height: 100%;
@@ -69,7 +70,7 @@ const NavLink = styled(Link)`
 const NavBar = () => (
     <NavContainer>
         <LogoContainer>
-            <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="400%">VA</VALogo>
+            <VALogo y="100%" x="50px" letterSpacing="-20" fontSize="400%">VA</VALogo>
             <VALogo y="90%" x="55%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
             <VALine y="40%" x="80px" width="100%"/>
             <VALine y="40%" x="0px" width="72px"/>
