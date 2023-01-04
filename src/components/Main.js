@@ -10,9 +10,8 @@ const Container = styled.body`
 `
 
 const Image = styled(StaticImage)`
-    height: 95vh;
-    position: absolute;
-    width: 100vw;
+    height: 95%;
+    position: static;
 `
 
 const Stuff = styled.div`
