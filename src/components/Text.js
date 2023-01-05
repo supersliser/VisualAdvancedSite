@@ -9,8 +9,8 @@ const TextItem = styled.p`
     margin-right: 20%;
 `
 
-const Text = ({ children }) => (
-    <TextItem>{children}</TextItem>
+const Text = ({ children, Size }) => (
+    <TextItem fontSize={Size}>{children}</TextItem>
 )
 
     export default Text
