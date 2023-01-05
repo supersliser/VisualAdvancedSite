@@ -10,7 +10,7 @@ const NewsBoxContainer = styled.div`
     background-color: #333333;
 `
 
-const Title = styled(Text)`
+const TitleItem = styled(Text)`
     color: Yellow;
     font-size: 3em;
     width: 40%;
@@ -21,7 +21,7 @@ const Title = styled(Text)`
     padding-right: 5%;
 `
 
-const Subtitle = styled(Text)`
+const SubtitleItem = styled(Text)`
     color: Yellow;
     font-size: 3em;
     width: 40%;
@@ -34,8 +34,8 @@ const Subtitle = styled(Text)`
 const NewsBox = ({Width, Height, Title, Subtitle}) => (
     <NewsBoxContainer width="{Width}%" height="{Height}%">
         <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" src="../images/Comps.JPG" alt={Title}/>
-        <Title>{Title}</Title>
-        <Subtitle>{Subtitle}</Subtitle>
+        <TitleItem>{Title}</TitleItem>
+        <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
 )
 
