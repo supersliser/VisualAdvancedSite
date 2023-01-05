@@ -4,8 +4,8 @@ import NavBar from "./NavBar"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Container = styled.body`
-    top: -1%;
-    left: -1%;
+    top: -5%;
+    left: -5%;
     background-color: #3c3c3b;
     width: 100vw;
     overflow-x: hidden;
