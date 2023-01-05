@@ -26,13 +26,9 @@ const NavBarItem = styled(NavBar)`
     position: static;
 `
 
-const Image = styled.StaticImage`
-
-`
-
 const Main = ({ children }) => (
 <Container>
-    <Image src="../images/elliot glasses cropped.jpg" alt="An imagething"/> 
+    <StaticImage src="../images/elliot glasses cropped.jpg" alt="An imagething"/> 
     <NavBarItem/>
     <Stuff>
         {children}
