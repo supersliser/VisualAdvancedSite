@@ -10,15 +10,15 @@ const NavContainer = styled.div`
     margin: 0px;
     padding: 0px;
     background-color: #3c3c3b;
-    position: fixed;
-    height: 5%;
+    position: sticky;
+    height: 5vh;
+    z-index: 500000;
 `
 
 const NavListContainer = styled.ul`
-    top: -10px;
+    top: 15%;
     position: relative;
     left: 10vw;
-    height: 100%;
     list-style: none;
     display: inline-block;
     z-index: 10;
@@ -72,8 +72,8 @@ const NavBar = () => (
         <LogoContainer>
             <VALogo y="100%" x="50px" letterSpacing="-25" fontSize="500%">VA</VALogo>
             <VALogo y="90%" x="55%" letterSpacing="25" fontSize="160%">Visual Advanced</VALogo>
-            <VALine y="20px" x="100px" width="100%"/>
-            <VALine y="20px" x="0px" width="65px"/>
+            <VALine y="50%" x="100px" width="100%"/>
+            <VALine y="50%" x="0px" width="61px"/>
         </LogoContainer>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>

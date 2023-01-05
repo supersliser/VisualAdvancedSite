@@ -25,10 +25,10 @@ const NavBarItem = styled(NavBar)`
 
 const Main = ({ children }) => (
 <Container>
+    <StaticImage src="../images/elliot glasses cropped.jpg" alt="An imagething" position="static"/> 
     <NavBarItem/>
     <Stuff>
         {children}
-        <StaticImage src="../images/comps.JPG" alt="An " width="100%"/>
     </Stuff>
 </Container>
 )

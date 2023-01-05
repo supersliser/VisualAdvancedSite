@@ -1,11 +1,13 @@
 import * as React from "react"
 import Seo from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Main from "../components/Main"
+import Text from "../components/Text"
 
 const IndexPage = () => (
     <Main>
-        <p>hello world</p>
+        <Text>Hello World</Text>
     </Main>
 )
 
