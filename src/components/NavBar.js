@@ -77,7 +77,7 @@ const NavBar = () => (
         </LogoContainer>
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
-            <NavItemContainer>About Us</NavItemContainer>
+            <NavItemContainer><NavLink to="/page-2">About Us</NavLink></NavItemContainer>
             <NavItemContainer>Recent productions</NavItemContainer>
         </NavListContainer>
     </NavContainer>
