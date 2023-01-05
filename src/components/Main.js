@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import NavBar from "./NavBar"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Container = styled.body`
+const Container = styled.div`
     top: 0px;
     left: 0px;
     background-color: #3c3c3b;
