@@ -32,10 +32,10 @@ const Subtitle = styled(Text)`
 `
 
 const NewsBox = ({Width, Height, Image, Title, Subtitle}) => (
-    <NewsBoxContainer>
+    <NewsBoxContainer width="{Width}%" height="{Height}%">
         <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" src={Image} alt={Title}/>
-        <Title>{title}</Title>
-
+        <Title>{Title}</Title>
+        <SubTitle>{Subtitle}</SubTitle>
     </NewsBoxContainer>
 )
 
