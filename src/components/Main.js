@@ -2,7 +2,6 @@ import * as React from "react"
 import styled from 'styled-components'
 import NavBar from "./NavBar"
 import { StaticImage } from "gatsby-plugin-image"
-import Image from "../images/comps.png"
 
 const Container = styled.body`
     top: 0px;
@@ -29,7 +28,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <img src="{Image}" alt="An image" width="100%"/>
+        <StaticImage src="https://github.com/supersliser/VisualAdvancedSite/blob/master/src/images/comps.jpg" alt="An " width="100%"/>
     </Stuff>
 </Container>
 )
