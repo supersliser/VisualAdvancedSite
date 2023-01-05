@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import NavBar from "./NavBar"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Container = styled.div`
-    top: 0px;
-    left: 0px;
+const Container = styled.body`
+    top: 0vh;
+    left: 0vw;
     background-color: #3c3c3b;
     width: 100vw;
     overflow-x: hidden;
