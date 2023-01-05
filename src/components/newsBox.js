@@ -31,9 +31,9 @@ const Subtitle = styled(Text)`
     padding-right: 5%;
 `
 
-const NewsBox = ({Width, Height, Image, Title, Subtitle}) => (
+const NewsBox = ({Width, Height, Title, Subtitle}) => (
     <NewsBoxContainer width="{Width}%" height="{Height}%">
-        <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" src={Image} alt={Title}/>
+        <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" src="../images/Comps.JPG" alt={Title}/>
         <Title>{Title}</Title>
         <SubTitle>{Subtitle}</SubTitle>
     </NewsBoxContainer>

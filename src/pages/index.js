@@ -9,7 +9,7 @@ import NewsBox from "../components/newsBox"
 const IndexPage = () => (
     <Main>
         <Text>Hello World</Text>
-        <NewsBox width="40" height="20" image="../images/Comps.JPG" Title="This is a test" Subtitle="Im testing something and i dont know if its going to work tbh"/>
+        <NewsBox width="40" height="20" Title="This is a test" Subtitle="Im testing something and i dont know if its going to work tbh"/>
     </Main>
 )
 
