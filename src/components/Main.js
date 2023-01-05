@@ -28,7 +28,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <StaticImage src="https://github.com/supersliser/VisualAdvancedSite/blob/master/src/images/comps.jpg" alt="An " width="100%"/>
+        <StaticImage src="../images/comps.JPG" alt="An " width="100%"/>
     </Stuff>
 </Container>
 )
