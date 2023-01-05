@@ -26,7 +26,7 @@ const NavBarItem = styled(NavBar)`
     position: static;
 `
 
-const Image = styled(StaticImage)`
+const Image = styled.StaticImage`
 
 `
 
