@@ -35,7 +35,7 @@ const SubtitleItem = styled(Text)`
 `
 
 const NewsBox = ({Width, Height, Title, Subtitle}) => (
-    <NewsBoxContainer width="{Width}%" height="{Height}%">
+    <NewsBoxContainer width="{Width}" height="{Height}">
         <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" src="../images/Comps.JPG" alt={Title} position="relative"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
