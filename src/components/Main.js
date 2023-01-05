@@ -7,6 +7,7 @@ const Container = styled.body`
     top: 0px;
     left: 0px;
     background-color: #3c3c3b;
+    width: 100vw;
 `
 
 const Stuff = styled.div`
