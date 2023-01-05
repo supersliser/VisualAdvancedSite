@@ -8,6 +8,8 @@ const Container = styled.body`
     left: 0px;
     background-color: #3c3c3b;
     width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 `
 
 const Stuff = styled.div`
