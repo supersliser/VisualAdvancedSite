@@ -10,6 +10,7 @@ const Container = styled.body`
 `
 
 const Stuff = styled.div`
+    margin-top: 5vh;
     position: static;
     height: 95%;
     width: 100%;
@@ -27,7 +28,7 @@ const Main = ({ children }) => (
     <NavBarItem/>
     <Stuff>
         {children}
-        <StaticImage src="../images/comps.jpg" alt="An image" width="100%" height="95%"/>
+        <StaticImage src="../images/comps.png" alt="An image" width="100%"/>
     </Stuff>
 </Container>
 )
