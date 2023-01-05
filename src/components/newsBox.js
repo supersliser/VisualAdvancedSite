@@ -1,7 +1,7 @@
 import * as React from "react"
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
-import Text from "Text.js"
+import Text from "../Text.js"
 const NewsBoxContainer = styled.div`
     border-style: Solid;
     border-width: Medium;
