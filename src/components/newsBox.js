@@ -36,9 +36,9 @@ const SubtitleItem = styled.p`
     float: right;
 `
 
-const NewsBox = ({Width, Height, Title, Subtitle}) => (
+const NewsBox = ({Width, Height, Title, Subtitle, Children}) => (
     <NewsBoxContainer width="{Width}" height="{Height}">
-        <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" style="float: left;" src="../images/Comps.JPG" alt={Title} position="relative"/>
+        {Children}
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
