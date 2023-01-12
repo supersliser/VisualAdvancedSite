@@ -40,7 +40,7 @@ const SubtitleItem = styled.p`
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
     <NewsBoxContainer width={WidthNum} height={HeightNum} top={TopNum} left={LeftNum}>
-        <StaticImage style={{Order:1, FlexGrow:2}} src="../images/Comps.JPG" alt="relating to the article"/>
+        <StaticImage style={{Order:"1", FlexGrow:"2", Width:"Inherit", Height:"Inherit"}} src="../images/Comps.JPG" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
