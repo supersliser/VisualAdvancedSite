@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
 
 const NewsBoxContainer = styled.div`
-    position: Static;
     border-style: Solid;
     border-width: Medium;
     border-color: Yellow;
@@ -20,7 +19,6 @@ const TitleItem = styled.p`
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    position: Static;
     float: right;
 `
 
@@ -32,13 +30,12 @@ const SubtitleItem = styled.p`
     padding-top: 15%;
     padding-left: 5%;
     padding-right: 5%;
-    position: Static;
     float: right;
 `
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
     <NewsBoxContainer width={WidthNum} height={HeightNum} top={TopNum} left={LeftNum}>
-        <StaticImage position="Static" width="45%" height="90%" marginLeft="5%" marginRight="10%" float="Left" src="../images/Comps.JPG" alt="relating to the article"/>
+        <StaticImage width="45%" height="90%" marginLeft="5%" marginRight="10%" float="Left" src="../images/Comps.JPG" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
