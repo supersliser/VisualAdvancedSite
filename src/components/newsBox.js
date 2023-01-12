@@ -1,7 +1,7 @@
 import * as React from "react"
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
-import Text from "./Text"
+
 const NewsBoxContainer = styled.div`
     position: absolute;
     border-style: Solid;
@@ -11,7 +11,7 @@ const NewsBoxContainer = styled.div`
     background-color: #333333;
 `
 
-const TitleItem = styled(Text)`
+const TitleItem = styled.p`
     color: Yellow;
     font-size: 3em;
     width: 40%;
@@ -23,7 +23,7 @@ const TitleItem = styled(Text)`
     position: relative;
 `
 
-const SubtitleItem = styled(Text)`
+const SubtitleItem = styled.p`
     color: Yellow;
     font-size: 1em;
     width: 40%;
