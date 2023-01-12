@@ -11,6 +11,10 @@ const NewsBoxContainer = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    grid-template-areas:
+    'image title'
+    'image subtitle'
+    ;
 `
 
 const TitleItem = styled.p`
@@ -22,6 +26,7 @@ const TitleItem = styled.p`
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    grid-area: title;
 `
 
 const SubtitleItem = styled.p`
@@ -32,11 +37,12 @@ const SubtitleItem = styled.p`
     padding-top: 15%;
     padding-left: 5%;
     padding-right: 5%;
+    grid-area: subtitle;
 `
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
     <NewsBoxContainer width={WidthNum} height={HeightNum} top={TopNum} left={LeftNum}>
-        <StaticImage style={{GridRow:"1 / 2"}} src="../images/Comps.JPG" alt="relating to the article"/>
+        <StaticImage style={{GridRow:"1 / 2", GridArea:"image"}} src="../images/Comps.JPG" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
