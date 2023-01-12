@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
 
 const NewsBoxContainer = styled.div`
-    position: relative;
+    position: Absolute;
     border-style: Solid;
     border-width: Medium;
     border-color: Yellow;
@@ -38,7 +38,7 @@ const SubtitleItem = styled.p`
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
     <NewsBoxContainer width={WidthNum} height={HeightNum} top={TopNum} left={LeftNum}>
-        <StaticImage width="45%" Height="90%" MarginLeft="5%" MarginRight="10%" Float="Left" src="../images/Comps.JPG" alt="relating to the article" position="relative"/>
+        <StaticImage position="relative" width="45%" height="90%" marginLeft="5%" marginRight="10%" float="Left" src="../images/Comps.JPG" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
