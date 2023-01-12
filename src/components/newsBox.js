@@ -8,6 +8,8 @@ const NewsBoxContainer = styled.div`
     border-color: Yellow;
     border-radius: 2px;
     background-color: #333333;
+    display: flex;
+    flex-direction: Column;
 `
 
 const TitleItem = styled.p`
