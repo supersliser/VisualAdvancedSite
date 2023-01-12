@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
 
 const NewsBoxContainer = styled.div`
-    position: Absolute;
+    position: Static;
     border-style: Solid;
     border-width: Medium;
     border-color: Yellow;
