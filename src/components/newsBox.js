@@ -22,6 +22,7 @@ const TitleItem = styled.p`
     padding-left: 5%;
     padding-right: 5%;
     float: right;
+    order: 2;
 `
 
 const SubtitleItem = styled.p`
@@ -33,11 +34,12 @@ const SubtitleItem = styled.p`
     padding-left: 5%;
     padding-right: 5%;
     float: right;
+    order: 3;
 `
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
     <NewsBoxContainer width={WidthNum} height={HeightNum} top={TopNum} left={LeftNum}>
-        <StaticImage width="45%" height="90%" marginLeft="5%" marginRight="10%" float="Left" src="../images/Comps.JPG" alt="relating to the article"/>
+        <StaticImage order="1" flexGrow="2" width="45%" height="90%" marginLeft="5%" marginRight="10%" float="Left" src="../images/Comps.JPG" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
