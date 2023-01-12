@@ -36,8 +36,8 @@ const SubtitleItem = styled.p`
 `
 
 const NewsBox = ({WidthNum, HeightNum, Title, Subtitle, TopNum, LeftNum}) => (
-    <NewsBoxContainer width="{WidthNum}" height="{HeightNum}" top="{TopNum}" left="{LeftNum}">
-        <StaticImage style={{GridRow:"1 / 2", GridArea:"image"}} src="../images/Comps.JPG" alt="relating to the article"/>
+    <NewsBoxContainer width="20vw" height="10vh" top="120vh" left="20vw">
+        <StaticImage style={{GridRow:"1 / 2", GridArea:"image"}} src="../images/Comps.JPG" height="100%" alt="relating to the article"/>
         <TitleItem>{Title}</TitleItem>
         <SubtitleItem>{Subtitle}</SubtitleItem>
     </NewsBoxContainer>
