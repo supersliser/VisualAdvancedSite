@@ -19,10 +19,7 @@ const NewsBoxContainer = styled.div`
 
 const TitleItem = styled.p`
     color: Yellow;
-    font-size: 3em;
-    width: 40%;
-    height: 25%;
-    top: 0px;
+    font-size: 40%;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -31,9 +28,7 @@ const TitleItem = styled.p`
 
 const SubtitleItem = styled.p`
     color: Yellow;
-    font-size: 1em;
-    width: 40%;
-    height: 75%;
+    font-size: 25%;
     padding-top: 15%;
     padding-left: 5%;
     padding-right: 5%;
