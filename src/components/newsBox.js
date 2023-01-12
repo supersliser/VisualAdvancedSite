@@ -10,6 +10,7 @@ const NewsBoxContainer = styled.div`
     background-color: #333333;
     display: flex;
     flex-direction: Column;
+    flex-wrap: wrap;
 `
 
 const TitleItem = styled.p`
