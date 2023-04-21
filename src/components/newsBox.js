@@ -48,7 +48,6 @@ const SubtitleItem = styled.p`
     font-family: 'Exo', sans-serif;
     text-decoration: none;
 `
-
 const NewsBox = ({ title, subtitle, img, date }) => (
     <NewsBoxContainer>
         <GatsbyImage style={{
@@ -62,7 +61,8 @@ const NewsBox = ({ title, subtitle, img, date }) => (
             alt="image relating to the article"
         />
         <TitleItem>{title}</TitleItem>
-        <SubtitleItem>{subtitle}{date}</SubtitleItem>
+        <SubtitleItem style={{ marginTop: "-10%" }}>{date}</SubtitleItem>
+        <SubtitleItem>{subtitle}</SubtitleItem>
     </NewsBoxContainer>
 )
 

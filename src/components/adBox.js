@@ -61,7 +61,7 @@ const NewsBox = ({ title, subtitle, date }) => (
             alt="image relating to the article"
         />
         <TitleItem>{title}</TitleItem>
-        <SubtitleItem style={{ marginTop: "-20%" }}>{date}</SubtitleItem>
+        <SubtitleItem style={{ marginTop: "-10%" }}>{date}</SubtitleItem>
         <SubtitleItem>{subtitle}</SubtitleItem>
     </NewsBoxContainer>
 )
