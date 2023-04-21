@@ -59,13 +59,13 @@ const NewsLinkBox = ({ title, subtitle, img, link, date }) => (
                 gridRowEnd: "2",
                 gridArea: "image",
                 height: "100%",
-                margin: "2px"
+                margin: "0px"
             }}
                 image={img}
                 alt="image relating to the article"
             />
             <TitleItem>{title}</TitleItem>
-            <SubtitleItem style={{marginTop: "-10%"}}>{date}</SubtitleItem>
+            <SubtitleItem style={{marginTop: "-20%"}}>{date}</SubtitleItem>
             <SubtitleItem>{subtitle}</SubtitleItem>
 
         </NewsBoxContainer>

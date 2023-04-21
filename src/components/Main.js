@@ -19,8 +19,8 @@ const Stuff = styled.div`
     color: black;
     z-index: 20;
     font-size: 5em;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 `
 
 const NavBarItem = styled(NavBar)`

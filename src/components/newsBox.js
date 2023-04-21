@@ -50,22 +50,20 @@ const SubtitleItem = styled.p`
 `
 const NewsBox = ({ title, subtitle, img, date }) => (
     <NewsBoxContainer>
-
-    <GatsbyImage style={{
-        gridRowStart: "1",
-        gridRowEnd: "2",
-        gridArea: "image",
-        height: "100%",
-        margin: "2px"
-    }}
-        image={img}
-        alt="image relating to the article"
-    />
-    <TitleItem>{title}</TitleItem>
-    <SubtitleItem style={{marginTop: "-10%"}}>{date}</SubtitleItem>
-    <SubtitleItem>{subtitle}</SubtitleItem>
-
-</NewsBoxContainer>
+        <GatsbyImage style={{
+            gridRowStart: "1",
+            gridRowEnd: "2",
+            gridArea: "image",
+            height: "100%",
+            margin: "0px"
+        }}
+            image={img}
+            alt="image relating to the article"
+        />
+        <TitleItem>{title}</TitleItem>
+        <SubtitleItem style={{ marginTop: "-20%" }}>{date}</SubtitleItem>
+        <SubtitleItem>{subtitle}</SubtitleItem>
+    </NewsBoxContainer>
 )
 
 export default NewsBox
