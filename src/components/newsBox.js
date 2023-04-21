@@ -13,7 +13,6 @@ const NewsBoxContainer = styled.div`
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
     'image title'
-    'image date'
     'image subtitle'
     ;
     justify-content: center;
@@ -63,8 +62,7 @@ const NewsBox = ({ title, subtitle, img, date }) => (
             alt="image relating to the article"
         />
         <TitleItem>{title}</TitleItem>
-        <SubtitleItem style={{ gridArea: "date" }}>{date}</SubtitleItem>
-        <SubtitleItem>{subtitle}</SubtitleItem>
+        <SubtitleItem>{subtitle}{date}</SubtitleItem>
     </NewsBoxContainer>
 )
 
