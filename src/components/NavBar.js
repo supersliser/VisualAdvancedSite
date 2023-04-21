@@ -81,7 +81,11 @@ const NavBar = () => (
         <NavListContainer>
             <NavItemContainer><NavLink to="/">Home</NavLink></NavItemContainer>
             <NavItemContainer>About Us</NavItemContainer>
-            <NavItemContainer>Recent productions</NavItemContainer>
+            <NavItemContainer>Science</NavItemContainer>
+            <NavItemContainer>Technology</NavItemContainer>
+            <NavItemContainer>History</NavItemContainer>
+            <NavItemContainer>Programming</NavItemContainer>
+            <NavItemContainer>Computer Science</NavItemContainer>
         </NavListContainer>
     </NavContainer>
 )
