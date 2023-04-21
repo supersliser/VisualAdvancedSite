@@ -16,7 +16,7 @@ const NavContainer = styled.div`
 `
 
 const NavListContainer = styled.ul`
-    top: -8%;
+    top: -20%;
     position: relative;
     left: 10vw;
     list-style: none;
