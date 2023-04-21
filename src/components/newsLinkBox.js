@@ -1,6 +1,6 @@
 import * as React from "react"
 import styled from 'styled-components'
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const NewsBoxContainer = styled.div`
@@ -16,14 +16,13 @@ const NewsBoxContainer = styled.div`
     'image title'
     'image subtitle'
     ;
-    width:100%;
-    height:100%;
     justify-content: center;
+
+    height: 100%;
 
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
-    text-decoration: none;
 `
 
 const TitleItem = styled.p`
@@ -36,7 +35,8 @@ const TitleItem = styled.p`
     grid-area: title;
     text-align: center;
     font-family: 'Sofia Sans', sans-serif;
-    `
+    text-decoration: none;
+`
 
 const SubtitleItem = styled.p`
     @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&display=swap');
@@ -47,24 +47,29 @@ const SubtitleItem = styled.p`
     grid-area: subtitle;
     text-align: center;
     font-family: 'Exo', sans-serif;
+    text-decoration: none;
 `
 
-const NewsLinkBox = ({title, subtitle, img, link}) => (
-    <NewsBoxContainer>
-        <Link to={link}>
-            <StaticImage style={{gridRowStart:"1", 
-            gridRowEnd:"2", 
-            gridArea:"image", 
-            height: "auto", 
-            width:"auto", 
-            margin:"2px"}} 
-            src= "../images/icon.png"
-            alt="image relating to the article"
+const NewsLinkBox = ({ title, subtitle, img, link, date }) => (
+    <Link to={link} style={{ textDecoration: "none" }}>
+        <NewsBoxContainer>
+
+            <GatsbyImage style={{
+                gridRowStart: "1",
+                gridRowEnd: "2",
+                gridArea: "image",
+                height: "100%",
+                margin: "2px"
+            }}
+                image={img}
+                alt="image relating to the article"
             />
             <TitleItem>{title}</TitleItem>
+            <SubtitleItem style={{marginTop: "-10%"}}>{date}</SubtitleItem>
             <SubtitleItem>{subtitle}</SubtitleItem>
-        </Link>
-    </NewsBoxContainer>
+
+        </NewsBoxContainer>
+    </Link>
 )
 
 export default NewsLinkBox

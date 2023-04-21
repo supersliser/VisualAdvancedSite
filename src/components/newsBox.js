@@ -1,6 +1,6 @@
 import * as React from "react"
 import styled from 'styled-components'
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const NewsBoxContainer = styled.div`
     border-style: Solid;
@@ -48,20 +48,24 @@ const SubtitleItem = styled.p`
     font-family: 'Exo', sans-serif;
     text-decoration: none;
 `
-
-const NewsBox = ({title, subtitle, img}) => (
+const NewsBox = ({ title, subtitle, img, date }) => (
     <NewsBoxContainer>
-        <StaticImage style={{gridRowStart:"1", 
-        gridRowEnd:"2", 
-        gridArea:"image", 
-        height:"100%",  
-        margin:"2px"}} 
-        src= "../images/icon.png"
+
+    <GatsbyImage style={{
+        gridRowStart: "1",
+        gridRowEnd: "2",
+        gridArea: "image",
+        height: "100%",
+        margin: "2px"
+    }}
+        image={img}
         alt="image relating to the article"
-        />
-        <TitleItem>{title}</TitleItem>
-        <SubtitleItem>{subtitle}</SubtitleItem>
-    </NewsBoxContainer>
+    />
+    <TitleItem>{title}</TitleItem>
+    <SubtitleItem style={{marginTop: "-10%"}}>{date}</SubtitleItem>
+    <SubtitleItem>{subtitle}</SubtitleItem>
+
+</NewsBoxContainer>
 )
 
 export default NewsBox
